@@ -1,11 +1,11 @@
 import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dating_app/datas/user.dart';
-import 'package:dating_app/models/app_model.dart';
+import 'package:evcloud_app/datas/user.dart';
+import 'package:evcloud_app/models/app_model.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:dating_app/helpers/app_helper.dart';
+import 'package:evcloud_app/helpers/app_helper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
@@ -14,7 +14,7 @@ import 'package:place_picker/entities/location_result.dart';
 import 'package:place_picker/place_picker.dart';
 import 'package:scoped_model/scoped_model.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:dating_app/constants/constants.dart';
+import 'package:evcloud_app/constants/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart' as fireAuth;
 
 class UserModel extends Model {

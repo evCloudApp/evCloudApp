@@ -1,17 +1,17 @@
 import 'dart:io';
 
-import 'package:dating_app/constants/constants.dart';
-import 'package:dating_app/dialogs/common_dialogs.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/screens/home_screen.dart';
-import 'package:dating_app/widgets/image_source_sheet.dart';
-import 'package:dating_app/widgets/processing.dart';
-import 'package:dating_app/widgets/show_scaffold_msg.dart';
-import 'package:dating_app/widgets/svg_icon.dart';
-import 'package:dating_app/widgets/terms_of_service_row.dart';
+import 'package:evcloud_app/constants/constants.dart';
+import 'package:evcloud_app/dialogs/common_dialogs.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/screens/home_screen.dart';
+import 'package:evcloud_app/widgets/image_source_sheet.dart';
+import 'package:evcloud_app/widgets/processing.dart';
+import 'package:evcloud_app/widgets/show_scaffold_msg.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/widgets/terms_of_service_row.dart';
 import 'package:flutter/material.dart';
-import 'package:dating_app/widgets/default_button.dart';
+import 'package:evcloud_app/widgets/default_button.dart';
 import 'package:flutter_cupertino_datetime_picker/flutter_cupertino_datetime_picker.dart';
 import 'package:scoped_model/scoped_model.dart';
 

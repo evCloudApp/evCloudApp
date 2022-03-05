@@ -1,6 +1,6 @@
-import 'package:dating_app/constants/constants.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/models/user_model.dart';
+import 'package:evcloud_app/constants/constants.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/models/user_model.dart';
 import 'package:flutter/material.dart';
 
 class ShowMeDialog extends StatefulWidget {

@@ -1,4 +1,4 @@
-package com.company.appname
+package com.hridso.evcloud
 
 import io.flutter.embedding.android.FlutterActivity
 

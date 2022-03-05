@@ -1,5 +1,5 @@
 
-import 'package:dating_app_dashboard/constants/constants.dart';
+import 'package:evCloud_app_dashboard/constants/constants.dart';
 
 class AppInfo {
   /// Variables

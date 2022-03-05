@@ -1,10 +1,10 @@
-import 'package:dating_app/constants/constants.dart';
-import 'package:dating_app/screens/phone_number_screen.dart';
-import 'package:dating_app/widgets/app_logo.dart';
-import 'package:dating_app/widgets/default_button.dart';
-import 'package:dating_app/widgets/terms_of_service_row.dart';
+import 'package:evcloud_app/constants/constants.dart';
+import 'package:evcloud_app/screens/phone_number_screen.dart';
+import 'package:evcloud_app/widgets/app_logo.dart';
+import 'package:evcloud_app/widgets/default_button.dart';
+import 'package:evcloud_app/widgets/terms_of_service_row.dart';
 import 'package:flutter/material.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
 
 
 class SignInScreen extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dating_app/constants/constants.dart';
-import 'package:dating_app/models/user_model.dart';
+import 'package:evcloud_app/constants/constants.dart';
+import 'package:evcloud_app/models/user_model.dart';
 import 'package:geoflutterfire/geoflutterfire.dart';
 
 class UsersApi {

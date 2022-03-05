@@ -1,6 +1,6 @@
 
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/widgets/gallery_image_card.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/widgets/gallery_image_card.dart';
 import 'package:flutter/material.dart';
 
 class UserGallery extends StatelessWidget {

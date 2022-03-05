@@ -1,4 +1,4 @@
-import 'package:dating_app/widgets/default_card_border.dart';
+import 'package:evcloud_app/widgets/default_card_border.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 

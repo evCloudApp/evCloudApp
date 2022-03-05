@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';

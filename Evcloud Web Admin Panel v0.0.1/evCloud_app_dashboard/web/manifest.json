@@ -1,6 +1,6 @@
 {
-    "name": "dating_app_dashboard",
-    "short_name": "dating_app_dashboard",
+    "name": "evCloud_app_dashboard",
+    "short_name": "evCloud_app_dashboard",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

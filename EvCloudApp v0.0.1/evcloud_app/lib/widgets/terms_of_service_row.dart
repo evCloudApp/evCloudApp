@@ -1,5 +1,5 @@
-import 'package:dating_app/helpers/app_helper.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/helpers/app_helper.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
 import 'package:flutter/material.dart';
 
 class TermsOfServiceRow extends StatelessWidget {

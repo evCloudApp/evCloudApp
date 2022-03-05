@@ -1,11 +1,11 @@
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/screens/edit_profile_screen.dart';
-import 'package:dating_app/screens/profile_screen.dart';
-import 'package:dating_app/screens/settings_screen.dart';
-import 'package:dating_app/widgets/cicle_button.dart';
-import 'package:dating_app/widgets/default_card_border.dart';
-import 'package:dating_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/screens/edit_profile_screen.dart';
+import 'package:evcloud_app/screens/profile_screen.dart';
+import 'package:evcloud_app/screens/settings_screen.dart';
+import 'package:evcloud_app/widgets/cicle_button.dart';
+import 'package:evcloud_app/widgets/default_card_border.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
 import 'package:flutter/material.dart';
 
 class ProfileBasicInfoCard extends StatelessWidget {

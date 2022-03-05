@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dating_app_dashboard/constants/constants.dart';
+import 'package:evCloud_app_dashboard/constants/constants.dart';
 
 class User {
   /// User info

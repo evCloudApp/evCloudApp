@@ -1,13 +1,13 @@
-import 'package:dating_app/datas/user.dart';
-import 'package:dating_app/dialogs/flag_user_dialog.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/plugins/swipe_stack/swipe_stack.dart';
-import 'package:dating_app/widgets/badge.dart';
-import 'package:dating_app/widgets/default_card_border.dart';
-import 'package:dating_app/widgets/show_like_or_dislike.dart';
-import 'package:dating_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/datas/user.dart';
+import 'package:evcloud_app/dialogs/flag_user_dialog.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/plugins/swipe_stack/swipe_stack.dart';
+import 'package:evcloud_app/widgets/badge.dart';
+import 'package:evcloud_app/widgets/default_card_border.dart';
+import 'package:evcloud_app/widgets/show_like_or_dislike.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
 import 'package:flutter/material.dart';
-import 'package:dating_app/helpers/app_helper.dart';
+import 'package:evcloud_app/helpers/app_helper.dart';
 
 class ProfileCard extends StatelessWidget {
   /// User object

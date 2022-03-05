@@ -1,14 +1,14 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dating_app/api/notifications_api.dart';
-import 'package:dating_app/constants/constants.dart';
-import 'package:dating_app/dialogs/common_dialogs.dart';
-import 'package:dating_app/dialogs/progress_dialog.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/helpers/app_notifications.dart';
-import 'package:dating_app/widgets/badge.dart';
-import 'package:dating_app/widgets/no_data.dart';
-import 'package:dating_app/widgets/processing.dart';
-import 'package:dating_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/api/notifications_api.dart';
+import 'package:evcloud_app/constants/constants.dart';
+import 'package:evcloud_app/dialogs/common_dialogs.dart';
+import 'package:evcloud_app/dialogs/progress_dialog.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/helpers/app_notifications.dart';
+import 'package:evcloud_app/widgets/badge.dart';
+import 'package:evcloud_app/widgets/no_data.dart';
+import 'package:evcloud_app/widgets/processing.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:timeago/timeago.dart' as timeago;
 

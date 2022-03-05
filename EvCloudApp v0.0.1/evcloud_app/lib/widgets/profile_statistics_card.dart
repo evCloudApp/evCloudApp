@@ -1,10 +1,10 @@
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/screens/disliked_profile_screen.dart';
-import 'package:dating_app/screens/profile_likes_screen.dart';
-import 'package:dating_app/screens/profile_visits_screen.dart';
-import 'package:dating_app/widgets/default_card_border.dart';
-import 'package:dating_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/screens/disliked_profile_screen.dart';
+import 'package:evcloud_app/screens/profile_likes_screen.dart';
+import 'package:evcloud_app/screens/profile_visits_screen.dart';
+import 'package:evcloud_app/widgets/default_card_border.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
 import 'package:flutter/material.dart';
 
 class ProfileStatisticsCard extends StatelessWidget {

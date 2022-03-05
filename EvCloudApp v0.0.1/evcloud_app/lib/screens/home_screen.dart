@@ -2,21 +2,21 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dating_app/api/conversations_api.dart';
-import 'package:dating_app/api/notifications_api.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/helpers/app_notifications.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/screens/notifications_screen.dart';
-import 'package:dating_app/tabs/conversations_tab.dart';
-import 'package:dating_app/tabs/discover_tab.dart';
-import 'package:dating_app/tabs/matches_tab.dart';
-import 'package:dating_app/tabs/profile_tab.dart';
-import 'package:dating_app/widgets/notification_counter.dart';
-import 'package:dating_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/api/conversations_api.dart';
+import 'package:evcloud_app/api/notifications_api.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/helpers/app_notifications.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/screens/notifications_screen.dart';
+import 'package:evcloud_app/tabs/conversations_tab.dart';
+import 'package:evcloud_app/tabs/discover_tab.dart';
+import 'package:evcloud_app/tabs/matches_tab.dart';
+import 'package:evcloud_app/tabs/profile_tab.dart';
+import 'package:evcloud_app/widgets/notification_counter.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'package:dating_app/constants/constants.dart';
+import 'package:evcloud_app/constants/constants.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
 

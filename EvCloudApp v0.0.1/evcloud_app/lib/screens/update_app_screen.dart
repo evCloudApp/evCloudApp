@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:dating_app/constants/constants.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/helpers/app_helper.dart';
-import 'package:dating_app/widgets/app_logo.dart';
+import 'package:evcloud_app/constants/constants.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/helpers/app_helper.dart';
+import 'package:evcloud_app/widgets/app_logo.dart';
 
 class UpdateAppScreen extends StatelessWidget {
   // Variables

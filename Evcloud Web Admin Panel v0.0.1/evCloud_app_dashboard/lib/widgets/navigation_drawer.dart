@@ -1,13 +1,13 @@
-import 'package:dating_app_dashboard/constants/constants.dart';
-import 'package:dating_app_dashboard/screens/admin_profile.dart';
-import 'package:dating_app_dashboard/screens/app_settings.dart';
-import 'package:dating_app_dashboard/screens/dashboard.dart';
-import 'package:dating_app_dashboard/screens/flagged_users.dart';
-import 'package:dating_app_dashboard/screens/in_app_purchases.dart';
-import 'package:dating_app_dashboard/screens/push_notifications.dart';
-import 'package:dating_app_dashboard/screens/sign_in_screen.dart';
-import 'package:dating_app_dashboard/screens/users_screen.dart';
-import 'package:dating_app_dashboard/widgets/app_logo.dart';
+import 'package:evCloud_app_dashboard/constants/constants.dart';
+import 'package:evCloud_app_dashboard/screens/admin_profile.dart';
+import 'package:evCloud_app_dashboard/screens/app_settings.dart';
+import 'package:evCloud_app_dashboard/screens/dashboard.dart';
+import 'package:evCloud_app_dashboard/screens/flagged_users.dart';
+import 'package:evCloud_app_dashboard/screens/in_app_purchases.dart';
+import 'package:evCloud_app_dashboard/screens/push_notifications.dart';
+import 'package:evCloud_app_dashboard/screens/sign_in_screen.dart';
+import 'package:evCloud_app_dashboard/screens/users_screen.dart';
+import 'package:evCloud_app_dashboard/widgets/app_logo.dart';
 import 'package:flutter/material.dart';
 
 class NavigationDrawer extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:dating_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
 import 'package:flutter/material.dart';
 
 class NoData extends StatelessWidget {

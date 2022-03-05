@@ -1,7 +1,7 @@
-import 'package:dating_app/dialogs/common_dialogs.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/screens/sign_up_screen.dart';
-import 'package:dating_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/dialogs/common_dialogs.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/screens/sign_up_screen.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 

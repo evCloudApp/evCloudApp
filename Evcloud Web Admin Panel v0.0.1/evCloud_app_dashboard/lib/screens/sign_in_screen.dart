@@ -1,10 +1,10 @@
-import 'package:dating_app_dashboard/constants/constants.dart';
-import 'package:dating_app_dashboard/models/app_model.dart';
-import 'package:dating_app_dashboard/screens/dashboard.dart';
-import 'package:dating_app_dashboard/widgets/app_logo.dart';
-import 'package:dating_app_dashboard/widgets/default_button.dart';
-import 'package:dating_app_dashboard/widgets/default_card_border.dart';
-import 'package:dating_app_dashboard/widgets/show_scaffold_msg.dart';
+import 'package:evCloud_app_dashboard/constants/constants.dart';
+import 'package:evCloud_app_dashboard/models/app_model.dart';
+import 'package:evCloud_app_dashboard/screens/dashboard.dart';
+import 'package:evCloud_app_dashboard/widgets/app_logo.dart';
+import 'package:evCloud_app_dashboard/widgets/default_button.dart';
+import 'package:evCloud_app_dashboard/widgets/default_card_border.dart';
+import 'package:evCloud_app_dashboard/widgets/show_scaffold_msg.dart';
 import 'package:flutter/material.dart';
 
 

@@ -1,14 +1,14 @@
-import 'package:dating_app/dialogs/common_dialogs.dart';
-import 'package:dating_app/dialogs/progress_dialog.dart';
-import 'package:dating_app/helpers/app_helper.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/plugins/otp_screen/otp_screen.dart';
-import 'package:dating_app/screens/enable_location_screen.dart';
-import 'package:dating_app/screens/home_screen.dart';
-import 'package:dating_app/screens/sign_up_screen.dart';
-import 'package:dating_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/dialogs/common_dialogs.dart';
+import 'package:evcloud_app/dialogs/progress_dialog.dart';
+import 'package:evcloud_app/helpers/app_helper.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/plugins/otp_screen/otp_screen.dart';
+import 'package:evcloud_app/screens/enable_location_screen.dart';
+import 'package:evcloud_app/screens/home_screen.dart';
+import 'package:evcloud_app/screens/sign_up_screen.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
 import 'package:flutter/material.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
 
 class VerificationCodeScreen extends StatefulWidget {
   // Variables

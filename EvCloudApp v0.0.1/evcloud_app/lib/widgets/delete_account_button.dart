@@ -1,8 +1,8 @@
-import 'package:dating_app/dialogs/common_dialogs.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/screens/delete_account_screen.dart';
-import 'package:dating_app/widgets/default_button.dart';
+import 'package:evcloud_app/dialogs/common_dialogs.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/screens/delete_account_screen.dart';
+import 'package:evcloud_app/widgets/default_button.dart';
 import 'package:flutter/material.dart';
 
 class DeleteAccountButton extends StatelessWidget {

@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dating_app_dashboard/constants/constants.dart';
-import 'package:dating_app_dashboard/models/app_model.dart';
-import 'package:dating_app_dashboard/widgets/navigation_drawer.dart';
-import 'package:dating_app_dashboard/widgets/processing.dart';
-import 'package:dating_app_dashboard/widgets/users_pie_chart.dart';
-import 'package:dating_app_dashboard/widgets/statistic_card.dart';
+import 'package:evCloud_app_dashboard/constants/constants.dart';
+import 'package:evCloud_app_dashboard/models/app_model.dart';
+import 'package:evCloud_app_dashboard/widgets/navigation_drawer.dart';
+import 'package:evCloud_app_dashboard/widgets/processing.dart';
+import 'package:evCloud_app_dashboard/widgets/users_pie_chart.dart';
+import 'package:evCloud_app_dashboard/widgets/statistic_card.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatefulWidget {

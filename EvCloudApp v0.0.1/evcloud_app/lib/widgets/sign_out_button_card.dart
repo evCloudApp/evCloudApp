@@ -1,7 +1,7 @@
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/screens/sign_in_screen.dart';
-import 'package:dating_app/widgets/default_card_border.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/screens/sign_in_screen.dart';
+import 'package:evcloud_app/widgets/default_card_border.dart';
 import 'package:flutter/material.dart';
 
 class SignOutButtonCard extends StatelessWidget {

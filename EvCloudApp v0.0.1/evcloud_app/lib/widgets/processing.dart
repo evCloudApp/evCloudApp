@@ -1,5 +1,5 @@
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/widgets/my_circular_progress.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/widgets/my_circular_progress.dart';
 import 'package:flutter/material.dart';
 
 class Processing extends StatelessWidget {

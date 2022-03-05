@@ -1,8 +1,8 @@
 
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/models/app_model.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/widgets/store_products.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/models/app_model.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/widgets/store_products.dart';
 import 'package:flutter/material.dart';
 
 class VipDialog extends StatelessWidget {

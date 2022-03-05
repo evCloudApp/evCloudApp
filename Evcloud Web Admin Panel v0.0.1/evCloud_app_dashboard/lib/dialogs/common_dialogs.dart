@@ -1,5 +1,5 @@
 
-import 'package:dating_app_dashboard/widgets/default_card_border.dart';
+import 'package:evCloud_app_dashboard/widgets/default_card_border.dart';
 import 'package:flutter/material.dart';
 
 

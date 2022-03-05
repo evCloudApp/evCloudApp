@@ -1,7 +1,7 @@
-import 'package:dating_app_dashboard/models/app_model.dart';
-import 'package:dating_app_dashboard/widgets/app_version_control.dart';
-import 'package:dating_app_dashboard/widgets/default_button.dart';
-import 'package:dating_app_dashboard/widgets/show_scaffold_msg.dart';
+import 'package:evCloud_app_dashboard/models/app_model.dart';
+import 'package:evCloud_app_dashboard/widgets/app_version_control.dart';
+import 'package:evCloud_app_dashboard/widgets/default_button.dart';
+import 'package:evCloud_app_dashboard/widgets/show_scaffold_msg.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

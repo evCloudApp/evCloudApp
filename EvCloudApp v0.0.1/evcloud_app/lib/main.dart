@@ -1,13 +1,13 @@
 import 'dart:io';
 
 import 'package:country_code_picker/country_localizations.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/models/app_model.dart';
-import 'package:dating_app/screens/splash_screen.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/models/app_model.dart';
+import 'package:evcloud_app/screens/splash_screen.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'package:dating_app/constants/constants.dart';
+import 'package:evcloud_app/constants/constants.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 //import 'package:in_app_purchase/in_app_purchase.dart';

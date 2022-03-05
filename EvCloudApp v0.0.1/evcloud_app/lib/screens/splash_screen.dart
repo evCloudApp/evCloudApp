@@ -1,17 +1,17 @@
 import 'dart:io';
 
-import 'package:dating_app/screens/blocked_account_screen.dart';
+import 'package:evcloud_app/screens/blocked_account_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:dating_app/constants/constants.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/helpers/app_helper.dart';
-import 'package:dating_app/screens/update_app_screen.dart';
-import 'package:dating_app/widgets/app_logo.dart';
-import 'package:dating_app/widgets/my_circular_progress.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/screens/home_screen.dart';
-import 'package:dating_app/screens/sign_up_screen.dart';
-import 'package:dating_app/screens/sign_in_screen.dart';
+import 'package:evcloud_app/constants/constants.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/helpers/app_helper.dart';
+import 'package:evcloud_app/screens/update_app_screen.dart';
+import 'package:evcloud_app/widgets/app_logo.dart';
+import 'package:evcloud_app/widgets/my_circular_progress.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/screens/home_screen.dart';
+import 'package:evcloud_app/screens/sign_up_screen.dart';
+import 'package:evcloud_app/screens/sign_in_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   @override

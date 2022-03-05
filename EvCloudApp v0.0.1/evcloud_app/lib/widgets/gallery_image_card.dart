@@ -1,10 +1,10 @@
-import 'package:dating_app/dialogs/common_dialogs.dart';
-import 'package:dating_app/dialogs/progress_dialog.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/widgets/default_card_border.dart';
-import 'package:dating_app/widgets/image_source_sheet.dart';
-import 'package:dating_app/dialogs/vip_dialog.dart';
+import 'package:evcloud_app/dialogs/common_dialogs.dart';
+import 'package:evcloud_app/dialogs/progress_dialog.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/widgets/default_card_border.dart';
+import 'package:evcloud_app/widgets/image_source_sheet.dart';
+import 'package:evcloud_app/dialogs/vip_dialog.dart';
 import 'package:flutter/material.dart';
 
 class GalleryImageCard extends StatelessWidget {

@@ -1,6 +1,6 @@
-import 'package:dating_app/dialogs/vip_dialog.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/widgets/default_card_border.dart';
+import 'package:evcloud_app/dialogs/vip_dialog.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/widgets/default_card_border.dart';
 import 'package:flutter/material.dart';
 
 class VipAccountCard extends StatelessWidget {

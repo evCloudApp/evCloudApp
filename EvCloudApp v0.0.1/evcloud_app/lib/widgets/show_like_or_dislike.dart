@@ -1,4 +1,4 @@
-import 'package:dating_app/plugins/swipe_stack/swipe_stack.dart';
+import 'package:evcloud_app/plugins/swipe_stack/swipe_stack.dart';
 import 'package:flutter/material.dart';
 
 class ShowLikeOrDislike extends StatelessWidget {

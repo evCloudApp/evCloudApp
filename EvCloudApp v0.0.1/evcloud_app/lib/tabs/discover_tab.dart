@@ -1,22 +1,22 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dating_app/api/dislikes_api.dart';
-import 'package:dating_app/api/likes_api.dart';
-import 'package:dating_app/api/matches_api.dart';
-import 'package:dating_app/api/visits_api.dart';
-import 'package:dating_app/constants/constants.dart';
-import 'package:dating_app/datas/user.dart';
-import 'package:dating_app/dialogs/its_match_dialog.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/plugins/swipe_stack/swipe_stack.dart';
-import 'package:dating_app/screens/disliked_profile_screen.dart';
-import 'package:dating_app/screens/profile_screen.dart';
-import 'package:dating_app/widgets/cicle_button.dart';
-import 'package:dating_app/widgets/no_data.dart';
-import 'package:dating_app/widgets/processing.dart';
-import 'package:dating_app/widgets/profile_card.dart';
+import 'package:evcloud_app/api/dislikes_api.dart';
+import 'package:evcloud_app/api/likes_api.dart';
+import 'package:evcloud_app/api/matches_api.dart';
+import 'package:evcloud_app/api/visits_api.dart';
+import 'package:evcloud_app/constants/constants.dart';
+import 'package:evcloud_app/datas/user.dart';
+import 'package:evcloud_app/dialogs/its_match_dialog.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/plugins/swipe_stack/swipe_stack.dart';
+import 'package:evcloud_app/screens/disliked_profile_screen.dart';
+import 'package:evcloud_app/screens/profile_screen.dart';
+import 'package:evcloud_app/widgets/cicle_button.dart';
+import 'package:evcloud_app/widgets/no_data.dart';
+import 'package:evcloud_app/widgets/processing.dart';
+import 'package:evcloud_app/widgets/profile_card.dart';
 import 'package:flutter/material.dart';
-import 'package:dating_app/api/users_api.dart';
+import 'package:evcloud_app/api/users_api.dart';
 
 // ignore: must_be_immutable
 class DiscoverTab extends StatefulWidget {

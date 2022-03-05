@@ -1,9 +1,9 @@
-import 'package:dating_app/datas/user.dart';
-import 'package:dating_app/dialogs/common_dialogs.dart';
-import 'package:dating_app/models/user_model.dart';
-import 'package:dating_app/screens/profile_likes_screen.dart';
-import 'package:dating_app/screens/profile_screen.dart';
-import 'package:dating_app/screens/profile_visits_screen.dart';
+import 'package:evcloud_app/datas/user.dart';
+import 'package:evcloud_app/dialogs/common_dialogs.dart';
+import 'package:evcloud_app/models/user_model.dart';
+import 'package:evcloud_app/screens/profile_likes_screen.dart';
+import 'package:evcloud_app/screens/profile_screen.dart';
+import 'package:evcloud_app/screens/profile_visits_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppNotifications {

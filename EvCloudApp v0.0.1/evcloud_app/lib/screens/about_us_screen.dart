@@ -1,8 +1,8 @@
-import 'package:dating_app/constants/constants.dart';
-import 'package:dating_app/helpers/app_helper.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/widgets/app_logo.dart';
-import 'package:dating_app/models/app_model.dart';
+import 'package:evcloud_app/constants/constants.dart';
+import 'package:evcloud_app/helpers/app_helper.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/widgets/app_logo.dart';
+import 'package:evcloud_app/models/app_model.dart';
 import 'package:flutter/material.dart';
 
 class AboutScreen extends StatelessWidget {

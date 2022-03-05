@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:dating_app/helpers/app_helper.dart';
-import 'package:dating_app/helpers/app_localizations.dart';
-import 'package:dating_app/screens/about_us_screen.dart';
-import 'package:dating_app/widgets/default_card_border.dart';
-import 'package:dating_app/widgets/svg_icon.dart';
+import 'package:evcloud_app/helpers/app_helper.dart';
+import 'package:evcloud_app/helpers/app_localizations.dart';
+import 'package:evcloud_app/screens/about_us_screen.dart';
+import 'package:evcloud_app/widgets/default_card_border.dart';
+import 'package:evcloud_app/widgets/svg_icon.dart';
 import 'package:flutter/material.dart';
 
 class AppSectionCard extends StatelessWidget {

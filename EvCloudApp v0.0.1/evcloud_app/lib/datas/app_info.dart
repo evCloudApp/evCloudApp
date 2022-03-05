@@ -1,4 +1,4 @@
-import 'package:dating_app/constants/constants.dart';
+import 'package:evcloud_app/constants/constants.dart';
 
 class AppInfo {
   /// Variables
