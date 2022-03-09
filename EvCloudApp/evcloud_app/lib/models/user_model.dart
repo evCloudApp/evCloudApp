@@ -62,7 +62,7 @@ class UserModel extends Model {
     final DocumentSnapshot userDoc = await UserModel().getUser(userId);
 
     /// return user object
-    return User.fromDocument(userDoc.data()!);
+    return User.fromDocument(userDoc.data());
   }
 
   /// Get user from database to listen changes => stream of [DocumentSnapshot]
@@ -167,7 +167,7 @@ class UserModel extends Model {
             blockedScreen!();
           } else {
             // Update UserModel for current user
-            updateUserObject(userDoc.data()!);
+            updateUserObject(userDoc.data());
             // Update user device token and subscribe to fcm topic
             updateUserDeviceToken();
             // Go to home screen
@@ -366,7 +366,7 @@ class UserModel extends Model {
       final DocumentSnapshot userDoc = await getUser(getFirebaseUser!.uid);
 
       /// Update UserModel for current user
-      updateUserObject(userDoc.data()!);
+      updateUserObject(userDoc.data());
 
       /// Update loading status
       isLoading = false;

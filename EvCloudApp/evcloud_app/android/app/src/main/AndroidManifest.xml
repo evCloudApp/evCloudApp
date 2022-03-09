@@ -21,8 +21,8 @@
          additional functionality it is fine to subclass or reimplement
          FlutterApplication and put your custom class here. -->
     <application
-        android:name="io.flutter.app.FlutterApplication"
-        android:label="Dating App"
+        android:name="${EvCloud}"
+        android:label="EvCloud App"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -85,6 +85,10 @@
         // Link: https://console.cloud.google.com/apis/credentials -->
         <meta-data android:name="com.google.android.geo.API_KEY"
                android:value="YOUR ANDROID API KEY"/>             
-            
+
+         <meta-data
+              android:name="flutterEmbedding"
+              android:value="2" />   
+              
     </application>
 </manifest>

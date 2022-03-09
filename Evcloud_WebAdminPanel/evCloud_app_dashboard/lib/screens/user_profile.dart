@@ -132,6 +132,7 @@ class ProfileScreen extends StatelessWidget {
                               context: context,
                               scaffoldkey: _scaffoldKey,
                               message: "Profile status updated successfully!");
+                          // ignore: argument_type_not_assignable_to_error_handler
                         }).catchError(() {
                           // Show error message
                           showScaffoldMessage(

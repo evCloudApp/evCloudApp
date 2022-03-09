@@ -19,14 +19,13 @@ class MyApp extends StatelessWidget {
     return ScopedModel<AppModel>(
       model: AppModel(),
       child: MaterialApp(
-        title: APP_NAME,
-        debugShowCheckedModeBanner: false,
-        home: SignInScreen(),
-        theme: ThemeData(
-          primaryColor: APP_PRIMARY_COLOR,
-          accentColor: APP_ACCENT_COLOR
-        )
-      ),
+          title: APP_NAME,
+          debugShowCheckedModeBanner: false,
+          home: SignInScreen(),
+          theme: ThemeData(
+              primaryColor: APP_PRIMARY_COLOR,
+              colorScheme: ColorScheme.fromSwatch()
+                  .copyWith(secondary: APP_ACCENT_COLOR))),
     );
   }
 }

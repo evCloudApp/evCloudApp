@@ -21,7 +21,7 @@ class ImageSourceSheet extends StatelessWidget {
 
     // Check file
     if (image != null) {
-      final croppedImage = await ImageCropper.cropImage(
+      final croppedImage = await ImageCropper().cropImage(
           sourcePath: image.path,
           aspectRatioPresets: [CropAspectRatioPreset.square],
           maxWidth: 400,
