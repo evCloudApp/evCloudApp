@@ -46,11 +46,9 @@ class AppAdHelper {
   // Create Interstitial Ad
   static Future<void> _createInterstitialAd() async {
     _interstitialAd = InterstitialAd(
-        adUnitId: _interstitialID,
-        request: AdRequest(),
-        listener: _adListener);
-      // Load InterstitialAd Ad
-      _interstitialAd?.load();
+        adUnitId: _interstitialID, request: AdRequest(), listener: _adListener);
+    // Load InterstitialAd Ad
+    _interstitialAd?.load();
   }
 
   // Show Interstitial Ads for Non VIP Users

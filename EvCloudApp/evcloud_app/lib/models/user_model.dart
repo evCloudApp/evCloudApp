@@ -62,7 +62,7 @@ class UserModel extends Model {
     final DocumentSnapshot userDoc = await UserModel().getUser(userId);
 
     /// return user object
-    return User.fromDocument(userDoc.data());
+    return User.fromDocument(userDoc.data()!);
   }
 
   /// Get user from database to listen changes => stream of [DocumentSnapshot]
@@ -126,23 +126,22 @@ class UserModel extends Model {
     // Get user birth month
     int birthMonth = birthDate.month;
 
-    if (birthMonth > currentMonth) { 
+    if (birthMonth > currentMonth) {
       // Decrement user age
-      age--; 
-    } else if (currentMonth == birthMonth) { 
+      age--;
+    } else if (currentMonth == birthMonth) {
       // Get current day
-      int currentDay = currentDate.day; 
+      int currentDay = currentDate.day;
       // Get user birth day
-      int birthDay = birthDate.day; 
+      int birthDay = birthDate.day;
       // Check days
-      if (birthDay > currentDay) { 
+      if (birthDay > currentDay) {
         // Decrement user age
         age--;
       }
     }
     return age;
   }
-
 
   /// Authenticate User Account
   Future<void> authUserAccount({
@@ -167,7 +166,7 @@ class UserModel extends Model {
             blockedScreen!();
           } else {
             // Update UserModel for current user
-            updateUserObject(userDoc.data());
+            updateUserObject(userDoc.data()!);
             // Update user device token and subscribe to fcm topic
             updateUserDeviceToken();
             // Go to home screen
@@ -300,23 +299,23 @@ class UserModel extends Model {
     String country = '';
     String locality = '';
 
-      ///
-      /// Get User current location using GPS
+    ///
+    /// Get User current location using GPS
     final Position position = await Geolocator.getCurrentPosition(
-          desiredAccuracy: LocationAccuracy.high);
+        desiredAccuracy: LocationAccuracy.high);
 
-      /// Get User location from formatted address
-      final Placemark place =
-          await _appHelper.getUserAddress(position.latitude, position.longitude);
-      // Get User Country, City or Locality
-      country = place.country ?? '';
-      locality = place.locality != '' // Check value
-          ? place.locality.toString()
-          : place.administrativeArea ?? '';
+    /// Get User location from formatted address
+    final Placemark place =
+        await _appHelper.getUserAddress(position.latitude, position.longitude);
+    // Get User Country, City or Locality
+    country = place.country ?? '';
+    locality = place.locality != '' // Check value
+        ? place.locality.toString()
+        : place.administrativeArea ?? '';
 
-      /// Set Geolocation point
-      final GeoFirePoint geoPoint = _geo.point(
-          latitude: position.latitude, longitude: position.longitude);
+    /// Set Geolocation point
+    final GeoFirePoint geoPoint =
+        _geo.point(latitude: position.latitude, longitude: position.longitude);
 
     /// Get user device token for push notifications
     final userDeviceToken = await _fcm.getToken();
@@ -366,7 +365,7 @@ class UserModel extends Model {
       final DocumentSnapshot userDoc = await getUser(getFirebaseUser!.uid);
 
       /// Update UserModel for current user
-      updateUserObject(userDoc.data());
+      updateUserObject(userDoc.data()!);
 
       /// Update loading status
       isLoading = false;

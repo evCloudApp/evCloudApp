@@ -21,8 +21,8 @@
          additional functionality it is fine to subclass or reimplement
          FlutterApplication and put your custom class here. -->
     <application
-        android:name="${EvCloud}"
-        android:label="EvCloud App"
+        android:name="Evcloud"
+        android:label="EvCloudApp"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -77,7 +77,7 @@
         <!-- Sample AdMob App ID for test: ca-app-pub-3940256099942544~3347511713 -->  
         <meta-data
           android:name="com.google.android.gms.ads.APPLICATION_ID"
-          android:value="[ADMOB_APP_ID]"/>
+          android:value="[ca-app-pub-7669292093053190~6978848454]"/>
 
         <!-- Config for place_picker plugin to use the Passport feature!
         // Add your Android API KEY for Google MAPS 

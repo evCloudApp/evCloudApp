@@ -32,8 +32,11 @@ class UsersApi {
         latitude: UserModel().user.userGeoPoint.latitude,
         longitude: UserModel().user.userGeoPoint.longitude);
 
+    var collectionReference =
+        FirebaseFirestore.instance.collection('users.locations');
+
     final allUsers = await geo
-        .collection(collectionRef: usersQuery)
+        .collection(collectionRef: collectionReference)
         .within(
             center: center,
             radius: settings![USER_MAX_DISTANCE].toDouble(),
@@ -82,19 +85,14 @@ class UsersApi {
 
     // Filter Profile Ages
     return allUsers.where((DocumentSnapshot user) {
-
-    // Get User Birthday
-    final DateTime userBirthday = DateTime(
-      user[USER_BIRTH_YEAR],
-      user[USER_BIRTH_MONTH], 
-      user[USER_BIRTH_DAY]);
+      // Get User Birthday
+      final DateTime userBirthday = DateTime(
+          user[USER_BIRTH_YEAR], user[USER_BIRTH_MONTH], user[USER_BIRTH_DAY]);
 
       /// Get user profile age to filter
-      final int profileAge =
-          UserModel().calculateUserAge(userBirthday);
+      final int profileAge = UserModel().calculateUserAge(userBirthday);
       // Return result
       return profileAge >= minAge && profileAge <= maxAge;
     }).toList();
-    
   }
 }

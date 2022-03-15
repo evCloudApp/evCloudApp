@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "257594909094",
-    "project_id": "saptapadiz-app",
-    "storage_bucket": "saptapadiz-app.appspot.com"
+    "project_number": "674757034318",
+    "project_id": "evcloudplatform",
+    "storage_bucket": "evcloudplatform.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:257594909094:android:fef71627e27061d886ef67",
+        "mobilesdk_app_id": "1:674757034318:android:613d84b12165a0d0691e1f",
         "android_client_info": {
           "package_name": "com.hridso.evcloud"
         }
       },
       "oauth_client": [
         {
-          "client_id": "257594909094-5trlf2qmr4m5jk9fkjo1hkqcnri75db6.apps.googleusercontent.com",
+          "client_id": "674757034318-d5b3pht24cp60nb2nt7m1uj417m5oke8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hridso.evcloud",
+            "certificate_hash": "b71fbd632a2f2d3bb67b10cb2f3cc56006d75ecb"
+          }
+        },
+        {
+          "client_id": "674757034318-mqg8d6f4ufboredtac4jg3h76376k4f5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCt_-YjMXcWK6SJzVwCg-12kCkpi8DZBAE"
+          "current_key": "AIzaSyD9Y7EeIglgwlHtKiD6boXubuvf5KgKmnA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "257594909094-5trlf2qmr4m5jk9fkjo1hkqcnri75db6.apps.googleusercontent.com",
+              "client_id": "674757034318-mqg8d6f4ufboredtac4jg3h76376k4f5.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

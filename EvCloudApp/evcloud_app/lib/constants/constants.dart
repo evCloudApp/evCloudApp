@@ -2,22 +2,22 @@ import 'package:flutter/material.dart';
 
 /// APP SETINGS INFO CONSTANTS - SECTION ///
 ///
-const String APP_NAME = "Saptapadiz App";
-const Color APP_PRIMARY_COLOR = Colors.pink; 
-const Color APP_ACCENT_COLOR = Colors.pinkAccent;
-const String APP_VERSION_NAME = "v1.0.3";
+const String APP_NAME = "EvCloud App";
+const Color APP_PRIMARY_COLOR = Colors.blueAccent;
+const Color APP_ACCENT_COLOR = Colors.greenAccent;
+const String APP_VERSION_NAME = "v0.0.1";
 const int ANDROID_APP_VERSION_NUMBER = 3; // Google Play Version Number
 const int IOS_APP_VERSION_NUMBER = 3; // App Store Version Number
-// 
+//
 // Add Google Maps - API KEY required for Passport feature
-// 
-const String ANDROID_MAPS_API_KEY = "YOUR ANDROID API KEY";
+//
+const String ANDROID_MAPS_API_KEY = "AIzaSyBRGH_Yj3HJrRfbWssOAjyCM0tWHOpc1dY";
 const String IOS_MAPS_API_KEY = "YOUR IOS API KEY";
 //
 // GOOGLE ADMOB INTERSTITIAL IDS
 //
 // For Android Platform
-const String ANDROID_INTERSTITIAL_ID = "YOUR ANDROID AD ID";
+const String ANDROID_INTERSTITIAL_ID = "ca-app-pub-7669292093053190~6978848454";
 // For IOS Platform
 const String IOS_INTERSTITIAL_ID = "YOUR iOS AD ID";
 
@@ -29,13 +29,13 @@ const String IOS_INTERSTITIAL_ID = "YOUR iOS AD ID";
 const List<Locale> SUPPORTED_LOCALES = [
   Locale('en'),
 ];
+
 ///
 /// END APP SETINGS - SECTION
 
-
-/// 
+///
 /// DATABASE COLLECTIONS FIELD - SECTION
-/// 
+///
 /// FIREBASE MESSAGING TOPIC
 const NOTIFY_USERS = "NOTIFY_USERS";
 

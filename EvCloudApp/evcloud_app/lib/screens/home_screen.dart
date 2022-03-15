@@ -19,7 +19,6 @@ import 'package:flutter/material.dart';
 import 'package:evcloud_app/constants/constants.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
-
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
@@ -65,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
     /// Subscribe to user updates
     _userStream.listen((userEvent) {
       // Update user
-      UserModel().updateUserObject(userEvent.data());
+      UserModel().updateUserObject(userEvent.data()!);
     });
   }
 
